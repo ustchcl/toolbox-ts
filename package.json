@@ -1,0 +1,27 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "description": "a toolbox library: http, file, network and so on.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "test",
+    "cmd": "ts-node command.ts"
+  },
+  "keywords": [
+    "toolbox",
+    "typescript"
+  ],
+  "author": "hong",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.7.0",
+    "commander": "^4.1.1",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
+    "typescript": "^3.7.5",
+    "zen-observable": "^0.8.15"
+  },
+  "devDependencies": {
+    "@types/zen-observable": "^0.8.0"
+  }
+}
